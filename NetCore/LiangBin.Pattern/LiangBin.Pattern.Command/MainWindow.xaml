@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Click="Button_Click" Content="Button" HorizontalAlignment="Left" Margin="78,10,0,0" VerticalAlignment="Top"/>
+        <RichTextBox Name="currentRichTextBox" Margin="34,54,58,28">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                    <InlineUIContainer>
+                        <TextBlock Text="TextBlock" TextWrapping="Wrap"/>
+                    </InlineUIContainer>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
 
     </Grid>
 </Window>
